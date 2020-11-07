@@ -54,7 +54,7 @@ elif player_numbers == 3:
     elif p2 > p1 and p2 > p3:
         print("Player 2 won the game!")
     elif p3 > p1 and p3 > p2:
-        print("Player 2 won the game!")
+        print("Player 3 won the game!")
     else:
         print("Draw!")
 else:
@@ -67,9 +67,9 @@ else:
     elif p2 > p1 and p2 > p3 and p2 > p4:
         print("Player 2 won the game!")
     elif p3 > p1 and p3 > p2 and p3 > p4:
-        print("Player 2 won the game!")
+        print("Player 3 won the game!")
     elif p4 > p1 and p4 > p3 and p4 > p3:
-        print("Player 2 won the game!")
+        print("Player 4 won the game!")
     else:
         print("Draw!")
 
