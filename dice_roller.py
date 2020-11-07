@@ -1,11 +1,8 @@
-# Python3 Project
+# Python3 Project - Dice Roll
 # Author: g0kb0ru
 import random
 
 player_numbers = int(input('How many players would you like to play?'))
-dice_rolls = int(input('How many dice would you like to roll?'))
-dice_size = int(input('How many sides are the dice? '))
-
 if player_numbers == 2:
     p1 = p2 = 0
 elif player_numbers == 3:
@@ -14,6 +11,10 @@ elif player_numbers == 4:
     p1 = p2 = p3 = p4 = 0
 else:
     print("Choose from 2 to 4 player")
+    quit()
+dice_rolls = int(input('How many dice would you like to roll?'))
+dice_size = int(input('How many sides are the dice? '))
+
 
 for j in range(0, player_numbers):
     dice_sum = 0
